@@ -35,8 +35,11 @@
 
   <properties>
     <plc4x.version>0.8.1-connectorio-1</plc4x.version>
-    <openhab.version>3.0.0</openhab.version>
-    <karaf.version>4.2.7</karaf.version>
+    <openhab.version>3.1.0</openhab.version>
+    <karaf.version>4.3.2</karaf.version>
+    <units-api.version>2.1.2</units-api.version>
+    <indriya.version>2.1.2</indriya.version>
+    <si-units.version>2.1</si-units.version>
 
     <slf4j.version>1.7.21</slf4j.version>
     <fasterxml-classmate.version>1.5.1</fasterxml-classmate.version>
@@ -442,6 +445,22 @@
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.service.component.annotations</artifactId>
         <version>1.4.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.measure</groupId>
+        <artifactId>unit-api</artifactId>
+        <version>${units-api.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>tech.units</groupId>
+        <artifactId>indriya</artifactId>
+        <version>${indriya.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>si.uom</groupId>
+        <artifactId>si-units</artifactId>
+        <version>${si-units.version}</version>
       </dependency>
 
       <dependency>

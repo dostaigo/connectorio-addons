@@ -70,11 +70,18 @@
     </dependency>
 
     <dependency>
-      <groupId>tec.uom</groupId>
-      <artifactId>uom-se</artifactId>
-      <version>1.0.10</version>
-      <scope>compile</scope>
+      <groupId>tech.units</groupId>
+      <artifactId>indriya</artifactId>
     </dependency>
+    <dependency>
+      <groupId>tech.units</groupId>
+      <artifactId>indriya</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>si.uom</groupId>
+      <artifactId>si-units</artifactId>
+    </dependency>
+
     <!--
     <dependency>
       <groupId>org.apache.karaf.features</groupId>
